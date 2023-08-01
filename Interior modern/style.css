@@ -1,0 +1,154 @@
+/* font-family: 'Crimson Pro', serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Space Mono', monospace; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 1440px;
+    height: 1080px; 
+    background-color: #181719 ;
+    color: #fff;
+}
+
+.cabecalho{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 42px;
+    margin-left: 77px;
+    margin-right: 77px;
+} 
+
+.titulo-logo{
+    font-family: "Crimson Pro", serif;
+    font-weight: 200;
+    font-size: 14px;
+    opacity: 0.8;
+    border: 2px solid #fff;
+    padding: 8px;
+    
+}
+
+.lista-nav{
+    display: flex;
+    gap: 80px;
+    list-style-type: none ;
+}
+
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+} 
+.home{
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+   
+}
+
+.article{
+    display: grid;  
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-top: 125px;
+    gap: 140px;
+    position: relative;
+}
+
+.foto{
+    grid-column: 2;
+    width: 740px;
+    height: 560px;
+    
+}
+
+.foto img {
+    width: 740px;
+    height: 560px;
+    
+
+}
+.detalhe{
+    content: "";
+    height: 190px;
+    width: 410px;
+    background-color:#181719;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.322);
+    border-radius: 2px;
+    position: absolute;
+    right: 140px;
+    bottom: -120px;
+    z-index: 1;
+}
+.foto-mulher{
+    display: grid;
+    grid-template-columns: 210px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px;
+    gap: 10px;
+    position: absolute;
+    right: 320px;
+    bottom: -70px;
+    z-index: 1;
+}
+.foto-mulher p {
+    grid-column: 1;
+    
+}
+.p-nome{
+    grid-row: 4;
+
+
+}
+
+.foto-mulher img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    grid-column: 1;
+   
+}
+.foto-mulher h1{
+    grid-column: 1;
+    grid-row: 7;
+}
+.p-interior{
+    grid-row: 5;
+
+
+}
+
+.informacoes{
+    grid-column: 1;
+    margin-left: 77px;
+
+}
+.titulo-principal{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 3rem;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    width: 370px;
+}
+.p-descricao{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    opacity: 0.6;
+    line-height: 30px; 
+    margin-bottom: 40px;
+}
+.informacoes span{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
+
+}
