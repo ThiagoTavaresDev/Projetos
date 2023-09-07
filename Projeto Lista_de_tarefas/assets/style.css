@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Inconsolata:wght@700&family=Lora:wght@500&family=Montserrat:ital,wght@0,400;0,700;1,500&family=Poppins&display=swap');
+
+
+*{  
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+body{
+    height: 100vh;
+    background: rgb(245, 6, 245);
+    background: linear-gradient(114deg, rgb(84, 60, 148) 16%, rgb(7, 66, 177) 77%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+   
+    background-color: rgb(255, 255, 255);
+    min-height: 240px;
+    min-width: 520px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.527);
+}
+.lista-tarefas{
+    margin-top: 36px;
+    margin-left: 22px;
+    
+}
+.lista-tarefas h1{
+    display: flex;
+    color: rgb(77, 77, 219);
+    font-size: 1.6rem;
+    align-items: center;
+    gap: 8px;
+}
+#icon{
+    width: 32px;
+    height: 32px;
+}
+.campo{
+    margin-top: 20px;
+
+
+}
+.campo input{
+    outline: none;
+    font-size: 15px;
+    width: 75%;
+    padding: 16px;
+    border: 0px;
+    border-radius: 22px;
+    background-color: rgba(221, 220, 220, 0.726);
+}
+.campo button{
+    padding: 16px 22px 16px 22px;
+    border: none;
+    border-radius: 22px;
+    outline: none;
+    background-color: rgb(233, 98, 49);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list-container{
+    margin: 20px 0px 25px 56px;
+    list-style: none;
+    position: relative;
+    font-size: 17px;
+    cursor: pointer;
+   
+}
+.list-container li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    left: -33px;
+    cursor: pointer;
+}
+li{
+    padding: 5px;
+
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+  }
+  ul li.checked::before{
+    background-image: url(images/checked.png);
+  }
+  ul li span{
+    position: absolute;
+    right: 12px;
+    
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    color: #555;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  li > span:hover {
+    background-color: rgb(199, 199, 199);
+  }
+  footer{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    font-weight: bold;
+  }
