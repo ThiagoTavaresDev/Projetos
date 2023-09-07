@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(203,73,44);
+    background: linear-gradient(114deg, rgba(203,73,44,1) 0%, rgba(97,60,142,1) 70%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#retrat{
+    height: 360px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+}
+.timer{
+    background-color: transparent;
+    height: 190px;
+    width: 190px;
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    
+}
+h1{
+    color: white;
+}
+.buttons button{
+    padding: 5px 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    border-radius: 2%;
+}
