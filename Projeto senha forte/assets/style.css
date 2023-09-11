@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+    background: linear-gradient(114deg, rgb(72, 156, 235) 0%, rgb(57, 46, 199) 70%);
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#senha{
+    
+    font-size: 16px;
+    padding: 0px 20px;
+    min-width: 400px;
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#senha::placeholder{
+    color: rgba(255, 255, 255, 0.397);
+
+}
+p{
+    margin-top: 20px;
+    color: white;
+    display: none;
+    font-size: 1.2rem;
+}
