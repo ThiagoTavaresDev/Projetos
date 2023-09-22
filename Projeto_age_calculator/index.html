@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGE CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main class="main-use">
+            <div class="contain-input">
+                <div class="input-style">
+                    <label for="">Dia</label>
+                    <input type="text" placeholder="DD" id="dias" required>
+                    <span class="span-field" id="errorDay">Dia inválido</span>
+                </div>
+                <div class="input-style">
+                    <label for="">Mês</label>
+                    <input type="text" placeholder="MM" id="meses" required>
+                    <span class="span-field" id="errorMonth">Campo Requirido</span>
+                </div>
+                <div class="input-style" required>
+                    <label for="">Ano</label>
+                    <input type="text" placeholder="YYYY" id="anos">
+                    <span class="span-field" id="errorYear">Campo Requirido</span>
+                </div>
+            </div>
+            <hr>
+            <button><img src="assets/images/icon-arrow.svg" alt="" class="simbol"></button>
+            <div class="contain-data">
+                <h1><span id="years" class="span">--</span>Anos</h1>
+                <h1><span id="months" class="span">--</span>Meses</h1>
+                <h1><span id="days" class="span">--</span>Dias</h1>        
+            </div>
+            
+            
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
