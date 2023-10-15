@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: hsl(27, 66%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.container{
+    width: 600px;
+    height: 700px;
+}
+.header-template{
+    background-color: hsl(10, 79%, 65%);
+    padding: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 140px;
+    position: relative;
+}
+.header-template h6{
+    font-weight: 100;
+    font-size: 15px;
+    margin-bottom: 5px;
+    
+}
+.header-template h2{
+    font-size: 30px;
+    
+}
+.header-template h2::after{
+    content: '';
+    padding: 30px 20px 30px 35px;
+    border-radius: 50%;
+    background-color: hsla(25, 47%, 15%, 0.582);
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.header-template h6::after{
+    content: '';
+    padding: 30px 20px 30px 35px;
+    border-radius: 50%;
+    background-color: hsla(30, 100%, 98%, 0.534);
+    position: absolute;
+    top: 40px;
+    right: 80px;
+   
+}
+.section-template{
+    background-color: white;
+    margin-top: 20px;
+    border: none;
+    padding: 40px;
+    border-radius: 10px;
+    height: 500px;
+}
+.section-template h1{
+    color: hsl(25, 47%, 15%);
+    font-size: 30px;
+}
+.contain-graphic #mon::before{
+   padding: 80px 23px 15px 23px;
+
+}
+.contain-graphic #tue::before{
+   padding: 100px 23px 15px 23px;
+   background-color: hsl(186, 34%, 60%);
+}
+.contain-graphic #thu::before{
+   padding: 90px 23px 15px 23px;
+
+}
+.contain-graphic #wed::before{
+   padding: 60px 23px 15px 23px;
+
+}
+.contain-graphic #fri::before{
+   padding: 30px 23px 15px 23px;
+
+}
+.contain-graphic #sun::before{
+   padding: 70px 23px 15px 23px;
+
+}
+.days-week{
+    display: inline-flex;
+    margin: 20px;
+    margin-top: 200px;
+    align-items: center;
+    justify-content: center;
+    color: hsl(28, 10%, 53%);
+}   
+.days-week::before{
+    content: '';
+    padding: 105px 23px 15px 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(10, 79%, 65%);
+    position: absolute;
+    bottom: 350px;
+}
+.section-template hr{
+    border-color: rgba(128, 128, 128, 0.137);
+    
+}
+.contain-info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: column;
+}
+.contain-info h6{
+    font-size: 16px;
+    color: hsl(28, 10%, 53%);
+    font-weight: 100;
+   
+}   
+.contain-info h2{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: hsl(25, 47%, 15%);
+    
+}
+.contain-info #percent{
+    color: hsl(25, 47%, 15%);
+    font-weight: bold;
+
+}
+.contain-final-span{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+#last-span{
+    color: hsl(28, 10%, 53%);
+
+}

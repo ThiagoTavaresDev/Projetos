@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto</title>
+</head>
+<body>
+        <div class="container">
+            <header class="header-template">
+                <h6>My balance</h6>
+                <h2 id="dinamic-h2">$921.48</h2>
+            </header>
+            <section class="section-template">
+                <h1>Spending - Last 7 days</h1>
+                <div class="contain-graphic">
+                    <span class="days-week" id="mon">mon</span>
+                    <span class="days-week" id="tue">tue</span>
+                    <span class="days-week" id="wed">wed</span>
+                    <span class="days-week" id="thu">thu</span>
+                    <span class="days-week" id="fri">fri</span>
+                    <span class="days-week" id="sat">sat</span>
+                    <span class="days-week" id="sun">sun</span>
+                </div>
+                <hr>
+                <div class="contain-info">
+                    <h6>Total this month</h6>
+                    <h2 id="dinamic-value">$478.33</h2>
+                    <div class="contain-final-span">
+                        <span id="percent">+2.4%</span>
+                        <span id="last-span">from last Month</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
